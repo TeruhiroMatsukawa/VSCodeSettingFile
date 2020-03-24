@@ -1,0 +1,12 @@
+{
+	"appdelegate": {
+		"prefix": "appdelegate",
+		"body": "import UIKit\n\n@UIApplicationMain\nclass AppDelegate: UIResponder, UIApplicationDelegate {\n\n    var window: UIWindow?\n\n    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {\n        return true\n    }\n}",
+		"description": "default appdelegate"
+	},
+	"vc": {
+		"prefix": "vc",
+		"body": "import UIKit\n\n// MARK: Enum\n\n// MARK: Protocol\n\nclass ViewController: UIViewController {\n\n    // MARK: Property\n\n    // MARK: IBAction\n\n    // MARK: Lifecycle\n    \n    override func viewDidLoad() {\n        super.viewDidLoad\n    }\n\n    // MARK: Public function\n\n    // MARK: Private function\n\n}\n\n// MARK: Extension",
+		"description": "default UIViewController"
+	}
+}
